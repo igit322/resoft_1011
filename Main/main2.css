@@ -72,10 +72,10 @@ header #gon .ham img{
     top: 25px;
 }
 
-header hr{
+/* header hr{
     display: none;
     opacity: 0;
-}
+} */
 
 header>div>a {
     position: fixed;
@@ -873,7 +873,12 @@ header #gon nav>ul>li .menu {
         display: block;
         color: #fff;
         line-height: 3;
-        margin-top: -15px;
+        margin-top: 3px;
+        margin-bottom: 4px;
+        /* 메뉴 선 */
+        border-bottom: 1px solid #fff;
+        height: 46px;
+        /* width: 85px; */
     }
 
     header #gon nav>ul ul>a {
@@ -890,11 +895,11 @@ header #gon nav>ul>li .menu {
         text-align: center;
         padding-top: 0px;
     }
-    header hr{
+    /* header hr{
         display: block;
         position: relative;
         top: 115px;
-    }
+    } */
      /* 레퍼런스 섹션 */
     /* .main-reference-container .ref-logo {
         
@@ -995,6 +1000,17 @@ header #gon nav>ul>li .menu {
     }
     header #gon nav>ul ul>a {
         height: 60px
+    }
+
+
+    
+    header #gon nav>ul>li .menu {
+        display: block;
+        color: #fff;
+        line-height: 3;
+        /* 메뉴 선 */
+        margin-top: 0px;
+        margin-bottom: 10px;
     }
 
     #header{
