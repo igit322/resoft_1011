@@ -1,0 +1,238 @@
+/* 바디 */
+body{
+    max-width:1920px;            
+    margin:0 auto;
+    font-family:'Noto Sans KR';      
+}
+
+/* 네비바 */
+header a {text-decoration: none; cursor: pointer; }
+header .logo {position: fixed; left: 30px; top: 25px; z-index: 100; margin-left: 20%; height: 30px;}
+header >a  {position:fixed; display: flex; right: 10%; top:25px; width: 50px; z-index: 100; }
+header #gon {position: fixed; left: 0; top: 0; padding: 0px 232px 0px 5px; width: 100%; box-sizing: border-box; background: #fff; z-index: 10; border-bottom: 1px solid #DBDBDB;}
+header #gon #main-nav {padding-top: 5px; padding-bottom: 5px;}
+header #gon nav + div {position:absolute; left: 0; top:81px; width: 100%;height: 200px; background: rgba(24, 75, 159, .7); transition: all 0.5s; z-index: -1;}
+header #gon nav > ul >li {display: inline-block; position: relative; font-weight: bold; font-size: 20px;}
+header #gon nav > ul > li > a{display: block; position:relative; width:160px; height: 70px; font-size: 20px; color: #000; line-height: 70px; text-decoration: none; top: 0px; z-index: 10; text-align: center; }
+header #gon nav > ul > li > a:after {content: ""; position: absolute; bottom: 10px; left: 40px; width: 0; height: 6px; background: #184B9F; transition: all 0.5s; border-radius: 20px; }
+header #gon nav > ul > li:hover > a:after{ width: 50%;}
+header #gon nav > ul > li:hover > a{ color: #184B9F;}
+header #gon nav > ul ul {padding-top: 15px; position: absolute; width: 100%; text-align: left; height: 230px; transition: all 0.5s; padding-left: 40px; font-size: 18px; font-weight: 400;}
+header #gon nav > ul ul li{line-height: 25px; padding-left: 0px; }
+header #gon nav > ul ul a {font-size: 20px; color: white; z-index: 10;}
+header #gon nav > ul ul a:hover :after {left: 0; width: 100%; }
+#main-nav {text-align: end; padding-right: 5%; }
+.close{opacity: 0; display: none;}
+.more{opacity: 1;}
+
+/* 현재페이지 글자색 및 밑줄 */
+header #gon nav > ul > li > a > p:after {content: ""; position: absolute; bottom: 10px; left: 40px; width: 0; height: 6px; background: #184B9F;  border-radius: 20px; }
+header #gon nav > ul > li > a > p:after {width: 50%;} 
+header #gon nav > ul > li .here{color:#184B9F;}
+
+/* 정보마당 배너 */
+.header-title-bg {
+width: 100%;
+height: 300px;
+background: url(../img/toco-img4/yard-header.png) center center no-repeat, rgba(0, 0, 0, 0.5);
+background-size: cover;
+background-blend-mode:hard-light;
+margin-top: 75px;
+}
+.header-title-bg .title-bg-color{
+background-color: rgba(0, 0, 0, 0.1);    
+}
+.header-title-bg .title-bg-color p{
+color: #fff;
+font-size: 40px;
+text-align: center;
+line-height: 300px;
+}
+
+/* yard-news 본문 */
+.yard-news{
+    width:100%;
+    display:flex;
+    font-size:20px;
+    
+}
+/* 좌측 페이지 */
+.yard-news-left{
+    text-align:left;
+    margin-top:5%;
+    width:25%;
+}
+.yard-news .yard-news-info{
+    margin:10%;
+}
+.yard-news .yard-news-left h1{
+    font-size:40px;
+    padding-bottom:1rem;
+}
+.yard-news .yard-news-left h4{
+    font-size:18px;
+    color:#c8c8c8;
+    margin-bottom:3rem;
+
+}
+a{
+    text-decoration:none;
+    color:#000;
+}
+
+
+/* 우측 페이지 */
+.yard-news-right{
+    width:75%;
+    text-align:left;
+    padding-top:15%;   
+}
+
+.yard-news-right h1{
+    font-size:24px;
+    padding-bottom:1rem;
+}
+.yard-news-right h4{
+    color:#AAAAAA;
+    margin-bottom:3rem;
+}
+.yard-news .yard-news-right hr{
+    border:1px solid #184b9f;  
+    margin-top:3%;
+    
+}
+
+.yard-news .yard-news-right .yard-news-img{
+    margin:3% 0 6% 0;
+}
+.yard-news-right p{
+    padding-bottom:2%;
+    font-size:16px;
+}
+
+
+
+
+
+/* 버튼들 모음 */
+
+.button-wrap{
+    display:flex;   
+    line-height:35px;    
+}
+
+.button-wrap:hover{
+    color:#184B9F;    
+}
+.button-wrap:hover .backpage,.button-wrap:hover .before-page-button,.button-wrap:hover .after-page-button{
+    background-color:#184B9F;
+    border: 1px solid #184B9F;
+    
+}
+/* 목록으로 버튼 */
+
+.backpage{
+    width:3vw;
+    height:3vw;
+    background-color:#1e1e1e;
+    border:1px solid #1e1e1e;
+    border-radius:100%;   
+}
+
+.button-wrap:hover .back-arrow{
+    filter:brightness(1.5);
+}
+
+/* 이전글 버튼 */
+.before-page-button-wrap{
+    width:10%;
+    position:relative;   
+    left:0;
+    float:left;    
+    text-align:left;
+    display:flex;
+    
+    
+}
+
+.before-page-button,.after-page-button{
+    width:3vw;
+    height:3vw;
+    border:1px solid #1e1e1e;
+    border-radius:50%;
+    background-color:#fff;
+}
+
+.button-wrap:hover .left-arrow, .button-wrap:hover .right-arrow{
+    filter:  invert();  
+}
+/* 다음글 버튼 */
+.after-page-button-wrap{
+    width:10%;
+    position:relative;
+    right:0;
+    float:right;
+    text-align:right;     
+    display:flex;    
+    /* background-color:red; */
+}
+
+/*------------------------푸터---------------*/
+.footer{    
+    width:100%;
+    height: 250px;
+    background: #E9E9E9;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5%;
+}
+
+.footer-wrap {
+    width: 1440px;
+    display: flex; 
+    justify-content: left;
+    flex-direction: column;
+}
+
+.footer-text{     
+    margin-top: 30px;
+    display: flex;
+    gap: 7%;
+    color:#9e9e9e;
+}
+
+.footer .copyright{
+    color:#9E9E9E;
+    font-weight:600;
+}      
+
+.footer-left,.footer-right{
+    line-height:25px;
+}
+
+/*미디어쿼리 */
+
+
+
+/* 태블릿 모드 */
+ /* @media screen and (max-width:1280px){
+    body{
+         background-color:red; 
+    }
+} */
+
+
+/* 모바일 모드 */
+@media screen and (max-width:768px){                  
+
+
+
+    /* 모바일 모드일때 배치변경 */
+    .footer-wrap .footer-text{
+        display:block;                
+    }
+    .footer-right{
+        margin-top:5%;
+    }
+} 
