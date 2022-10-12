@@ -500,8 +500,13 @@ hr{
     header #gon nav>ul>li .menu {
         display: block;
         color: #fff;
+        line-height: 3;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        /* 메뉴 선 */
         border-bottom: 1px solid #fff;
-        line-height: 2
+        height: 60px;
+        /* width: 85px; */
     }
 
     header #gon nav>ul ul>a {
@@ -561,7 +566,19 @@ header>div>a {
 header #gon nav>ul ul>a {
     height: 60px
 }
-
+header #gon nav > ul > li .menu {
+    display: block;
+    color: #fff;
+    line-height: 3;
+    /* 메뉴 선 */
+    margin-top: 0px;
+    margin-bottom: 10px;
+    height: 46px;
+  }
+  header #gon nav > ul ul li {
+    line-height: 1.5;
+    padding-left: 0;
+  }
 #header{
     height: 50px;
 } 
