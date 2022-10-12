@@ -502,9 +502,6 @@ header #gon nav>ul>li .menu {
     align-items: flex-start;
     align-content: flex-start;
 }
-.main-service-container .service-right-wrap a{
-    background-color: #184B9F;
-}
 .main-service-container .service-img-wrap2 {
     margin-top: 10rem;
     margin-left: 4rem;
