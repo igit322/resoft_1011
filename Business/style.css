@@ -132,7 +132,7 @@ header #gon nav>ul ul {
 }
 
 header #gon nav>ul ul li {
-    line-height: 2;
+    line-height: 1.5;
     padding-left: 0
 }
 
@@ -242,8 +242,13 @@ header #gon nav>ul>li .here {
     header #gon nav>ul>li .menu {
         display: block;
         color: #fff;
+        line-height: 3;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        /* 메뉴 선 */
         border-bottom: 1px solid #fff;
-        line-height: 2
+        height: 60px;
+        /* width: 85px; */
     }
 
     header #gon nav>ul ul>a {
@@ -287,7 +292,19 @@ header #gon nav>ul>li .here {
     header #gon nav>ul ul>a {
         height: 60px
     }
-
+    header #gon nav > ul > li .menu {
+        display: block;
+        color: #fff;
+        line-height: 3;
+        /* 메뉴 선 */
+        margin-top: 0px;
+        margin-bottom: 10px;
+        height: 46px;
+      }
+      header #gon nav > ul ul li {
+        line-height: 1.5;
+        padding-left: 0;
+      }
     #header{
         height: 50px;
     } 
@@ -320,6 +337,15 @@ header #gon nav>ul>li .here {
 
     .top_back {
         height: 279px
+    }
+
+    header #gon nav>ul>li .menu {
+        display: block;
+        color: #fff;
+        line-height: 3;
+        /* 메뉴 선 */
+        margin-top: 0px;
+        margin-bottom: 10px;
     }
 }
 
@@ -902,6 +928,7 @@ header #gon nav>ul>li .here {
         flex-direction: column;
         justify-content: space-between;
     }
+    
 }
 
 
