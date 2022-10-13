@@ -877,12 +877,17 @@ header #gon nav>ul>li .menu {
         display: block;
         color: #fff;
         line-height: 3;
-        margin-top: 3px;
+        margin-top: 0px;
         margin-bottom: 4px;
         /* 메뉴 선 */
         border-bottom: 1px solid #fff;
-        height: 46px;
+        height: 50px;
         /* width: 85px; */
+        font-size: 20px;
+    }
+
+    #main-nav .menu{
+
     }
 
     header #gon nav>ul ul>a {
@@ -1005,18 +1010,20 @@ header #gon nav>ul>li .menu {
     header #gon nav>ul ul>a {
         height: 60px
     }
-
-
-    
+    /*
     header #gon nav>ul>li .menu {
         display: block;
         color: #fff;
         line-height: 3;
-        /* 메뉴 선 */
+     메뉴 선 
         margin-top: 0px;
         margin-bottom: 10px;
     }
-
+    */
+    header #gon nav>ul>li .menu {
+        margin-top: -15px;
+        font-size: 18px;
+    }
     #header{
         height: 50px;
     } 
@@ -1031,7 +1038,7 @@ header #gon nav>ul>li .menu {
 
     header #gon nav+div {
         top: 50px;
-        height: 230px
+        height: 200px
     }
 
     header #gon nav>ul ul {
@@ -1039,7 +1046,7 @@ header #gon nav>ul>li .menu {
     }
 
     header #gon nav>ul ul a {
-        font-size: 17px
+        font-size: 16px
     }
 
     header #gon nav>ul>li>a {
