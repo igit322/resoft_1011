@@ -74,7 +74,7 @@ header #gon nav + div {
   left: 0;
   top: 80px;
   width: 100%;
-  height: 300px;
+  height: 200px;
   background: rgba(24, 75, 159, 0.9);
   z-index: -1;
 }
@@ -115,7 +115,7 @@ header #gon nav > ul > li:hover > a {
   color: #184b9f;
 }
 header #gon nav > ul ul {
-  padding-top: 30px;
+  padding-top: 25px;
   position: absolute;
   width: 100%;
   text-align: left;
@@ -125,7 +125,7 @@ header #gon nav > ul ul {
   font-weight: 400;
 }
 header #gon nav > ul ul li {
-  line-height: 2;
+  line-height: 1.5;
   padding-left: 0;
 }
 header #gon nav > ul ul a {
@@ -777,11 +777,12 @@ h2 {
     display: block;
     color: #fff;
     line-height: 3;
-    margin-top: -10px;
+    font-size: 20px;
+    margin-top: 0px;
     margin-bottom: 10px;
     /* 메뉴 선 */
     border-bottom: 1px solid #fff;
-    height: 60px;
+    height: 50px;
     /* width: 85px; */
   }
 
@@ -795,6 +796,7 @@ h2 {
     width: 83px;
     padding-left: 2vw;
     text-align: center;
+    padding-top: 0px;
   }
   .top > p {
     font-size: 35px;
@@ -885,8 +887,9 @@ h2 {
     color: #fff;
     line-height: 3;
     /* 메뉴 선 */
-    margin-top: 0px;
-    margin-bottom: 10px;
+    margin-top: -15px;
+    font-size: 18px;
+    margin-bottom: 6px;
     height: 46px;
   }
   header #gon nav > ul ul li {
@@ -901,13 +904,13 @@ h2 {
   }
   header #gon nav + div {
     top: 50px;
-    height: 230px;
+    height: 200px;
   }
   header #gon nav > ul ul {
     padding-top: 0;
   }
   header #gon nav > ul ul a {
-    font-size: 13px;
+    font-size: 16px;
   }
   header #gon nav > ul > li > a {
     height: 55px;
