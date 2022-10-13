@@ -1010,19 +1010,15 @@ header #gon nav>ul>li .menu {
     header #gon nav>ul ul>a {
         height: 60px
     }
-    /*
-    header #gon nav>ul>li .menu {
+      header #gon nav>ul>li .menu {
         display: block;
         color: #fff;
         line-height: 3;
-     메뉴 선 
-        margin-top: 0px;
-        margin-bottom: 10px;
-    }
-    */
-    header #gon nav>ul>li .menu {
+        /* 메뉴 선 */
         margin-top: -15px;
         font-size: 18px;
+        margin-bottom: 6px;
+        height: 46px;
     }
     #header{
         height: 50px;
