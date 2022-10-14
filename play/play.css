@@ -48,7 +48,7 @@
   height: 40px;
   border-radius: 50%;
   clip: rect(0, 40px, 40px, 20px);
-  background-color: rgba(255, 255, 255, 0.271);
+  background-color: rgba(255, 255, 255, 0.135);
 }
 .circle_progress .right .bar {
   position: absolute;
