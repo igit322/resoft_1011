@@ -302,7 +302,7 @@ header #gon nav > ul > li .menu {
 }
 .main-header #stop-btn,
 .main-header #play-btn {
-  width: 18px;
+  width: 14px;
 }
 /* 새로운 소식 (뉴스) 섹션 */
 
@@ -1113,6 +1113,7 @@ header #gon nav > ul > li .menu {
 
   .main-header .slick-button-wrap {
     /* max-width: 180px; */
+    position: absolute;
     padding: 0.5rem;
     width: 155px;
     top: 580px;
@@ -1121,7 +1122,7 @@ header #gon nav > ul > li .menu {
   .main-header .slick-button-wrap > div {
     position: relative;
     width: 40px;
-    height: 53px;
+    height: 50px;
   }
   .main-header .slick-button-wrap img {
     width: 42px;
