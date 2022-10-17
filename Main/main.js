@@ -82,41 +82,33 @@ $(document).ready(function () {
   // 앱 카드 애니메이션
   $(".service-card").on({
     mouseover: function () {
-      $(this)
-        .children(".card-show")
-        .css({
-          transform: "translate(-70px, -100px)",
-          opacity: "0",
-          transition: "0.35s",
-          "pointer-events": "none",
-        });
-      $(this)
-        .children(".card-hide")
-        .css({
-          transform: "translate(0, 0)",
-          opacity: "1",
-          transition: "0.35s",
-          "pointer-events": "none",
-        });
-      $(this).css({ transform: "scale(1.13)", transition: "0.5" });
+      $(this).children(".card-show").css({
+        transform: "translate(-70px, -100px)",
+        opacity: "0",
+        transition: "0.35s",
+        "pointer-events": "none",
+      });
+      $(this).children(".card-hide").css({
+        transform: "translate(0, 0)",
+        opacity: "1",
+        transition: "0.35s",
+        "pointer-events": "none",
+      });
+      $(this).css({ transform: "scale(1.13)", transition: "0.5s" });
     },
     mouseout: function () {
-      $(this)
-        .children(".card-show")
-        .css({
-          transform: "translate(0,0)",
-          opacity: "1",
-          transition: "0.35s",
-          "pointer-events": "none",
-        });
-      $(this)
-        .children(".card-hide")
-        .css({
-          transform: "translate(70px, 100px)",
-          opacity: "0",
-          transition: "0.35s",
-          "pointer-events": "none",
-        });
+      $(this).children(".card-show").css({
+        transform: "translate(0,0)",
+        opacity: "1",
+        transition: "0.35s",
+        "pointer-events": "none",
+      });
+      $(this).children(".card-hide").css({
+        transform: "translate(70px, 100px)",
+        opacity: "0",
+        transition: "0.35s",
+        "pointer-events": "none",
+      });
       $(this).css({ transform: "scale(1)", transition: "0.5s" });
     },
   });
