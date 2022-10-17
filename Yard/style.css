@@ -1,4 +1,8 @@
 /* 바디 */
+* {
+  scroll-behavior: smooth;
+}
+
 html body {
   margin: 0 auto;
   font-family: "Noto Sans KR";

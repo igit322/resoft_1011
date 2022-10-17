@@ -950,7 +950,7 @@ h2 {
   .event,
   .event1,
   .event2 {
-    font-size: 20px;
+    font-size: 17px;
   }
   .content1,
   .content2,
@@ -960,8 +960,8 @@ h2 {
   }
   .number1,
   .number2 {
-    left: -100px;
-    font-size: 20px;
+    left: -75px;
+    font-size: 18px;
   }
   .jojic-wrapper li ul {
     margin-left: 10%;
@@ -1056,7 +1056,7 @@ h2 {
   }
   .number1,
   .number2 {
-    left: -80px;
+    left: -85px;
     font-size: 20px;
   }
   .content1 p,
@@ -1068,7 +1068,7 @@ h2 {
     padding-bottom: 2px;
   }
   .event {
-    left: -55px;
+    left: -45px;
   }
   .jojic {
     width: 45%;
