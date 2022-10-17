@@ -182,7 +182,7 @@ header #gon nav > ul ul {
   position: absolute;
   width: 100%;
   text-align: left;
-  height: 230px;
+  height: 180px;
   padding-left: 40px;
   font-size: 18px;
   font-weight: 400;
@@ -190,7 +190,7 @@ header #gon nav > ul ul {
 
 header #gon nav > ul ul li {
   line-height: 1.5;
-  padding-left: 0;
+  padding-left: 0px;
 }
 
 header #gon nav > ul ul a {
@@ -516,9 +516,9 @@ header #gon nav > ul > li .menu {
 .main-service-container .service-left-wrap {
   width: 550px;
 }
-.main-service-container .sub-text {
+/* .main-service-container .sub-text {
   margin-bottom: 3.5rem;
-}
+} */
 .main-service-container .service-img1 {
   width: 100%;
 }
@@ -907,6 +907,7 @@ header #gon nav > ul > li .menu {
   header #gon nav > ul > li .dpdl {
     opacity: 0;
     width: 100px;
+    z-index: -1;
   }
 
   header #gon nav > ul > li .menu {
@@ -922,8 +923,8 @@ header #gon nav > ul > li .menu {
     font-size: 20px;
   }
 
-  #main-nav .menu {
-  }
+  /* #main-nav .menu {
+  } */
 
   header #gon nav > ul ul > a {
     text-align: center;
@@ -935,7 +936,7 @@ header #gon nav > ul > li .menu {
 
   header #gon nav > ul ul {
     width: 83px;
-    padding-left: 2vw;
+    padding-left: 4vw;
     text-align: center;
     padding-top: 0px;
   }
@@ -1043,7 +1044,7 @@ header #gon nav > ul > li .menu {
     height: 20px;
   }
   header #gon #main-nav {
-    margin-right: 0px;
+    margin-right: 70px;
   }
   header #gon nav > ul ul > a {
     height: 60px;
@@ -1076,7 +1077,7 @@ header #gon nav > ul > li .menu {
   }
 
   header #gon nav > ul ul {
-    padding-top: 0;
+    padding-top: 0px;
   }
 
   header #gon nav > ul ul a {
