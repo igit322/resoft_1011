@@ -1037,17 +1037,18 @@ h2 {
     line-height: 33px;
   }
   .dapyo {
-    height: 10vw;
-    width: 140px;
-    font-size: 5.5vw;
+    height: 6vw;
+    width: 110px;
+    /* 폰트크기 */
+    font-size: 5vw;
   }
   .section .title2 {
     font-size: 13px;
     line-height: 17px;
   }
   .timeline {
-    margin-left: 180px;
-    width: 40%;
+    margin-left: 150px;
+    width: 50%;
     padding: 0;
   }
   .number2 {
@@ -1058,10 +1059,21 @@ h2 {
     left: -80px;
     font-size: 20px;
   }
+  .content1 p,
+  .content2 p {
+    padding-bottom: 20px;
+    line-height: 18px;
+  }
+  .timeline ul {
+    padding-bottom: 2px;
+  }
+  .event {
+    left: -55px;
+  }
   .jojic {
-    width: 60%;
-    font-size: 5.5vw;
-    height: 7vw;
+    width: 55%;
+    font-size: 5vw;
+    height: 4vw;
   }
   .jojic-wrapper li ul {
     margin-left: 5%;
