@@ -304,6 +304,14 @@ header #gon nav > ul > li .menu {
 .main-header #play-btn {
   width: 14px;
 }
+
+.main-header .slick-button-wrap img:active{
+  filter: brightness(70%);
+}
+
+
+
+
 /* 새로운 소식 (뉴스) 섹션 */
 
 .main-news-container {
