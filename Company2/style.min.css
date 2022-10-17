@@ -993,7 +993,7 @@ h2 {
     font-size: 14px;
   }
   .map-text-title {
-    font-size: 20px;
+    font-size: 14px;
     text-align: center;
   }
   .section .title {
@@ -1040,7 +1040,7 @@ h2 {
     height: 6vw;
     width: 110px;
     /* 폰트크기 */
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .section .title2 {
     font-size: 13px;
@@ -1071,16 +1071,16 @@ h2 {
     left: -55px;
   }
   .jojic {
-    width: 55%;
-    font-size: 5vw;
+    width: 45%;
+    font-size: 4vw;
     height: 4vw;
   }
   .jojic-wrapper li ul {
     margin-left: 5%;
   }
   .jojic-wrapper li ul li {
-    padding-left: 8%;
-    font-size: 4vw;
+    padding-left: 16%;
+    font-size: 3vw;
   }
   .section .box {
     grid-template-columns: repeat(1, 1fr);
