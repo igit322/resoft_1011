@@ -1488,4 +1488,7 @@ header #gon nav > ul > li .menu {
   .common-footer .footer-text span {
     display: block;
   }
+  header #gon #main-nav {
+    flex-wrap: nowrap;
+  }
 }
