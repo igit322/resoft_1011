@@ -72,11 +72,13 @@ $(document).ready(function () {
     $(".slick-header-wrap").slick("slickPause");
     $(this).css("display", "none");
     $("#play-btn").css("display", "block");
+    $(".bar").css("display", "none");
   });
   $("#play-btn").click(function () {
     $(".slick-header-wrap").slick("slickPlay");
     $(this).css("display", "none");
     $("#stop-btn").css("display", "block");
+    $(".bar").css("display", "block");
   });
 
   // 앱 카드 애니메이션
