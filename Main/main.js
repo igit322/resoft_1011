@@ -60,7 +60,7 @@ $(document).ready(function () {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
-    pauseOnHover: true,
+    // pauseOnHover: true,
     arrows: true,
     infinite: true,
     speed: 500,
