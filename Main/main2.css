@@ -996,6 +996,9 @@ header #gon nav > ul > li .menu {
 
 /* 미디어 쿼리 768 - 태블릿 ---------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
+  #load > img {
+    left: 45%;
+  }
   /* 메인 전체 */
   section {
     padding-top: 10vw;
@@ -1298,6 +1301,11 @@ header #gon nav > ul > li .menu {
 
 /* 미디어 쿼리 430 - 모바일---------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 430px) {
+
+  #load > img {
+    left: 42%;
+  }
+
   /* 메인 전체 */
   .all-margin {
     margin-left: 5vw;
