@@ -2,9 +2,9 @@ $(function() {
     // 보이기 | 숨기기
     $(window).scroll(function() {
        if ($(this).scrollTop() > 250) { //250 넘으면 버튼이 보여짐니다.
-            $('#topBtn, a#topBtn').fadeIn();
+            $('#topBtn, .topBtn a').fadeIn();
             } else {
-            $('#topBtn, a#topBtn').fadeOut();
+            $('#topBtn, .topBtn a').fadeOut();
         }
     });
     // 버튼 클릭시
