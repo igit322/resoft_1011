@@ -38,7 +38,7 @@ button.move i {
 }
 
 /* 모바일 430사이즈 */
-@media screen and (max-width: 430px) {
+/* @media screen and (max-width: 430px) {
   button.move {
     width: 30px;
     height: 30px;
@@ -54,4 +54,4 @@ button.move i {
   .topBtn a {
     font-size: 10px;
   }
-}
+} */
