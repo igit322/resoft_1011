@@ -564,6 +564,9 @@ hr {
   }
 }
 @media screen and (max-width: 768px) {
+  #load > img {
+    left: 45%;
+  }
   body .resoft-news {
     display: block;
     justify-content: center;
@@ -703,6 +706,9 @@ hr {
 }
 
 @media screen and (max-width: 430px) {
+  #load > img {
+    left: 42%;
+  }
   .top > p {
     font-size: 22px;
   }

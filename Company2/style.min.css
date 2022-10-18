@@ -862,6 +862,9 @@ h2 {
   }
 }
 @media screen and (max-width: 768px) {
+  #load > img {
+    left: 45%;
+  }
   header .logo {
     position: fixed;
     left: -15px;
@@ -1124,6 +1127,13 @@ h2 {
     display: block;
   } */
 }
+
+@media screen and (max-width: 430px) {
+  #load > img {
+    left: 42%;
+  }
+}
+
 @media screen and (max-width: 300px) {
   .map-text-sub p,
   .map-text-sub2 p {

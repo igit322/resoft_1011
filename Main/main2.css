@@ -305,12 +305,9 @@ header #gon nav > ul > li .menu {
   width: 14px;
 }
 
-.main-header .slick-button-wrap img:active{
+.main-header .slick-button-wrap img:active {
   filter: brightness(70%);
 }
-
-
-
 
 /* 새로운 소식 (뉴스) 섹션 */
 
@@ -1301,7 +1298,6 @@ header #gon nav > ul > li .menu {
 
 /* 미디어 쿼리 430 - 모바일---------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 430px) {
-
   #load > img {
     left: 42%;
   }

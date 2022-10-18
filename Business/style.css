@@ -953,6 +953,9 @@ header #gon nav > ul > li .here {
 
 /* ---------- 768px ---------- */
 @media screen and (max-width: 768px) {
+  #load > img {
+    left: 45%;
+  }
   .top > p {
     font-size: 28px;
   }
@@ -1119,6 +1122,10 @@ header #gon nav > ul > li .here {
 
 /* ---------- 430px ---------- */
 @media screen and (max-width: 430px) {
+  #load > img {
+    left: 42%;
+  }
+
   .top > p {
     font-size: 22px;
   }

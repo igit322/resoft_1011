@@ -630,6 +630,9 @@ body h1 {
 /* 모바일 모드 */
 /* 768px */
 @media screen and (max-width: 768px) {
+  #load > img {
+    left: 45%;
+  }
   header .logo {
     position: fixed;
     left: -15px;
@@ -776,6 +779,9 @@ body h1 {
 
 /* 430px */
 @media screen and (max-width: 430px) {
+  #load > img {
+    left: 42%;
+  }
   .top > p {
     font-size: 22px;
   }
