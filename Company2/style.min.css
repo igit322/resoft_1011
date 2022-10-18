@@ -413,7 +413,7 @@ header #gon nav > ul > li .here {
 .rectangle {
   position: relative;
   padding: 20px;
-  color: #fff;
+  color: rgb(255, 236, 236);
 }
 .con {
   max-width: 1440px;
@@ -425,12 +425,13 @@ header #gon nav > ul > li .here {
   align-items: center;
   width: 160px;
   margin: 0 auto 140px;
-  background: #184b9f 0 0 no-repeat padding-box;
-  color: #fff;
+  background: #184c9f00 0 0 no-repeat padding-box;
+  color: rgb(0, 0, 0);
   font-size: 26px;
   font-weight: 500;
   height: 40px;
   border-radius: 20px;
+  border: #184b9f solid 3px;
 }
 .dapyo::before {
   content: "";
@@ -488,8 +489,8 @@ h2 {
   width: 154px;
   height: 34px;
   margin: 0 auto;
-  background: #fff;
-  color: #000;
+  background: #184b9f;
+  color: rgb(255, 255, 255);
   border: #184b9f solid 3px;
   font-size: 26px;
   border-radius: 20px;
