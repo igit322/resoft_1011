@@ -62,12 +62,12 @@
 }
 
 .addleft {
-  animation: left 5s linear 0s;
+  animation: left 10s linear 0s;
   /* animation: left 3s linear 0s infinite; 무한으로 돌게 할때 붙이는*/
 }
 
 .addright {
-  animation: right 5s linear 0s;
+  animation: right 10s linear 0s;
 }
 
 .circle_progress .value {
@@ -93,7 +93,7 @@
 } */
 .circle {
   animation-name: keyframes-circle;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-iteration-count: 1;
   animation-delay: 0s;
 }
