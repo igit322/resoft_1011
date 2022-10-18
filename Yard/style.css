@@ -705,8 +705,11 @@ body h1 {
 
   /* resoft-news 본문 */
 
-  .news-title-wrap {
+  /* .news-title-wrap {
     margin-top: 10vw;
+  } */
+  .news-title-wrap {
+    padding: 80px 0 0 0;
   }
   .news-title {
     font-size: 28px;
