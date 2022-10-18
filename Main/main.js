@@ -55,18 +55,19 @@ $(document).ready(function () {
     }
   });
 
+  //slick
   $(".slick-header-wrap").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
-    // pauseOnHover: true,
     arrows: true,
     infinite: true,
     speed: 500,
     prevArrow: $("#prev-arrow"),
     nextArrow: $("#next-arrow"),
   });
+
   // 슬릭 멈추고 재생할 때 CSS랑 기능
   $("#stop-btn").click(function () {
     $(".slick-header-wrap").slick("slickPause");
@@ -74,6 +75,7 @@ $(document).ready(function () {
     $("#play-btn").css("display", "block");
     $(".bar").css("display", "none");
   });
+
   $("#play-btn").click(function () {
     $(".slick-header-wrap").slick("slickPlay");
     $(this).css("display", "none");
@@ -81,7 +83,13 @@ $(document).ready(function () {
     $(".bar").css("display", "block");
   });
 
-  //로딩
+  // 윈도우 로드 시 게이지 시작
+  $(document).ready(function () {
+    $(".circle_progress .left .bar").addClass("addleft");
+    $(".circle_progress .right .bar").addClass("addright");
+  });
+
+  //진행left
   $(".slick-slider").on("afterChange", function () {
     $(".circle_progress .left .bar").addClass("addleft");
   });
@@ -89,7 +97,7 @@ $(document).ready(function () {
     $(".circle_progress .left .bar").removeClass("addleft");
   });
 
-  //로딩
+  //진행right
   $(".slick-slider").on("afterChange", function () {
     $(".circle_progress .right .bar").addClass("addright");
   });
