@@ -7,7 +7,7 @@
   position: fixed;
   z-index: 99999;
   bottom: 7%;
-  right: 1.5%;
+  right: 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,8 +23,35 @@ button.move {
   background: white;
   cursor: pointer;
   margin-bottom: 5px;
+  width: 40px;
+  height: 40px;
 }
 button.move i {
-  padding: 5px;
-  font-size: 32px;
+  padding: 0px;
+  font-size: 25px;
+}
+.fa-solid {
+  position: relative;
+  width: 5px;
+  height: 5px;
+  right: 8px;
+}
+
+/* 모바일 430사이즈 */
+@media screen and (max-width: 430px) {
+  button.move {
+    width: 30px;
+    height: 30px;
+  }
+  button.move i {
+    font-size: 20px;
+  }
+  .fa-solid {
+    width: 1px;
+    height: 1px;
+    right: 8px;
+  }
+  .topBtn a {
+    font-size: 10px;
+  }
 }
