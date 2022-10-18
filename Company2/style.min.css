@@ -1120,9 +1120,9 @@ h2 {
     justify-content: space-between;
     word-break: break-all;
   }
-  .common-footer .footer-text span {
+  /* .common-footer .footer-text span {
     display: block;
-  }
+  } */
 }
 @media screen and (max-width: 300px) {
   .map-text-sub p,

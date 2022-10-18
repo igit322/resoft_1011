@@ -1203,7 +1203,7 @@ header #gon nav > ul > li .here {
     justify-content: space-between;
     word-break: break-all;
   }
-  .common-footer .footer-text span {
+  /* .common-footer .footer-text span {
     display: block;
-  }
+  } */
 }
