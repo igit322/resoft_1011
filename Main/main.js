@@ -81,6 +81,22 @@ $(document).ready(function () {
     $(".bar").css("display", "block");
   });
 
+  //로딩
+  $(".slick-slider").on("afterChange", function () {
+    $(".circle_progress .left .bar").addClass("addleft");
+  });
+  $(".slick-slider").on("beforeChange", function () {
+    $(".circle_progress .left .bar").removeClass("addleft");
+  });
+
+  //로딩
+  $(".slick-slider").on("afterChange", function () {
+    $(".circle_progress .right .bar").addClass("addright");
+  });
+  $(".slick-slider").on("beforeChange", function () {
+    $(".circle_progress .right .bar").removeClass("addright");
+  });
+
   // 앱 카드 애니메이션
   $(".service-card").on({
     mouseover: function () {
