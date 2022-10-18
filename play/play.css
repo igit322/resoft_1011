@@ -8,9 +8,9 @@
 }
 
 /* 버튼숨겨놈 */
-.pro_wrap .btn_pause {
+/* .pro_wrap .btn_pause {
   display: none;
-}
+} */
 
 .circle_progress {
   position: relative;
@@ -38,7 +38,7 @@
   border-radius: 50%;
   clip: rect(0, 40px, 40px, 20px);
   background-color: #ffffff;
-  animation: left 5s linear 0s infinite;
+  /* animation: left 5s linear 0s infinite; */
 }
 .circle_progress .right {
   position: absolute;
@@ -59,8 +59,17 @@
   border-radius: 50%;
   clip: rect(0, 20px, 40px, 0);
   background-color: #ffffff;
-  animation: right 5s linear 0s infinite;
 }
+
+.addleft {
+  animation: left 5s linear 0s;
+  /* animation: left 3s linear 0s infinite; 무한으로 돌게 할때 붙이는*/
+}
+
+.addright {
+  animation: right 5s linear 0s;
+}
+
 .circle_progress .value {
   position: absolute;
   top: 4px;
