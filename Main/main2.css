@@ -775,10 +775,10 @@ header #gon nav > ul > li .menu {
 /* 미디어 쿼리 1280 - PC ---------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1280px) {
   /* 메인 전체 */
-  .all-margin {
-    /* margin-left: 3vw;
-        margin-right: 3vw; */
-  }
+  /* .all-margin {
+    margin-left: 3vw;
+    margin-right: 3vw;
+  } */
   .main-news-container,
   .project,
   .service,

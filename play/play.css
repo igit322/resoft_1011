@@ -83,14 +83,14 @@
   border-radius: 50%;
   background-color: rgb(99, 99, 99);
 }
-.btn_pause {
+/* .btn_pause {
   width: 100px;
   height: 40px;
   line-height: 15px;
   margin-top: 10px;
   padding: 10px 0;
   text-align: center;
-}
+} */
 .circle {
   animation-name: keyframes-circle;
   animation-duration: 3s;
