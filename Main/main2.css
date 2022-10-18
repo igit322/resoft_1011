@@ -1497,9 +1497,9 @@ header #gon nav > ul > li .menu {
     justify-content: space-between;
     word-break: break-all;
   }
-  .common-footer .footer-text span {
+  /* .common-footer .footer-text span {
     display: block;
-  }
+  } */
   header #gon #main-nav {
     flex-wrap: nowrap;
   }
