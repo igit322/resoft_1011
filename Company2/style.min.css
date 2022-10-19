@@ -275,7 +275,7 @@ header #gon nav > ul > li .here {
 .timeline ul {
   padding: 20px;
   position: relative;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: 0.5s;
 }
 .timeline ul li span {
