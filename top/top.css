@@ -34,7 +34,8 @@ button.move i {
   position: relative;
   width: 5px;
   height: 5px;
-  right: 7px;
+  right: 8px;
+  top: -1px
 }
 
 /* 모바일 430사이즈 */
