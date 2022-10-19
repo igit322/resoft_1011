@@ -269,7 +269,7 @@ header #gon nav > ul > li .here {
   color: #fff;
   padding: 30px 20px;
   margin: 0 auto;
-  margin-left: 600px;
+  margin-left: 550px;
   width: 50%;
 }
 .timeline ul {
@@ -302,7 +302,7 @@ header #gon nav > ul > li .here {
 .event1 {
   color: #184b9f;
   position: relative;
-  left: 15px;
+  left: 20px;
   margin-bottom: 16px;
   font: normal normal bold 32px/46px "Noto Sans KR";
   opacity: 1;
@@ -356,24 +356,24 @@ header #gon nav > ul > li .here {
 }
 .number1 {
   position: relative;
-  left: -44%;
+  left: -385px;
   bottom: 60px;
   font: normal normal bold 50px/72px "Noto Sans KR";
   letter-spacing: 2.5px;
-  color: #000;
+  color: #184b9f;
   opacity: 1;
   border-width: 1px;
   height: 60px;
 }
 .number2 {
   position: relative;
-  left: -44%;
-  bottom: 75px;
+  left: -385px;
+  bottom: 67px;
   font: normal normal bold 50px/72px "Noto Sans KR";
   letter-spacing: 2.5px;
-  color: #000;
+  color: #184b9f;
   opacity: 1;
-  width: 163%;
+  width: 175%;
 }
 .number2::after {
   content: "";
@@ -400,7 +400,7 @@ header #gon nav > ul > li .here {
   border-left: 6px solid #c8c8c8;
   padding: 0;
   margin: 0;
-  padding-bottom: 37px;
+  padding-bottom: 60px;
 }
 .timeline .last {
   list-style-type: none;
@@ -672,10 +672,10 @@ h2 {
     width: 85vw;
   }
   .timeline {
-    width: 40.5%;
+    width: 60%;
   }
   .number2 {
-    width: 176%;
+    width: 150%;
   }
   .tg {
     height: 78.125%;
@@ -689,11 +689,11 @@ h2 {
 }
 @media screen and (max-width: 1280px) {
   .timeline {
-    margin-left: 420px;
+    margin-left: 540px;
     width: 43%;
   }
   .number2 {
-    width: 187%;
+    width: 195%;
   }
   .con {
     max-width: 500px;
@@ -815,15 +815,17 @@ h2 {
     width: 22vw;
   }
   .timeline {
-    margin-left: 40%;
+    margin-left: 320px;
     width: 51%;
   }
   .number2 {
     font-size: 32px;
-    width: 165%;
+    width: 170%;
+    left: -200px;
   }
   .number1 {
     font-size: 32px;
+    left: -200px;
   }
   .content1 p,
   .content2 p {
@@ -948,7 +950,7 @@ h2 {
   }
   .timeline {
     margin-left: 230px;
-    width: 40%;
+    width: 50%;
     padding: 0;
   }
   .number2 {
