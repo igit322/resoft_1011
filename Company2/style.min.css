@@ -357,7 +357,7 @@ header #gon nav > ul > li .here {
 .number1 {
   position: relative;
   left: -385px;
-  bottom: 60px;
+  bottom: 67px;
   font: normal normal bold 50px/72px "Noto Sans KR";
   letter-spacing: 2.5px;
   color: #184b9f;
@@ -368,7 +368,7 @@ header #gon nav > ul > li .here {
 .number2 {
   position: relative;
   left: -385px;
-  bottom: 67px;
+  bottom: 83px;
   font: normal normal bold 50px/72px "Noto Sans KR";
   letter-spacing: 2.5px;
   color: #184b9f;
@@ -822,10 +822,12 @@ h2 {
     font-size: 32px;
     width: 170%;
     left: -200px;
+    bottom: 76px;
   }
   .number1 {
     font-size: 32px;
     left: -200px;
+    bottom: 60px;
   }
   .content1 p,
   .content2 p {
